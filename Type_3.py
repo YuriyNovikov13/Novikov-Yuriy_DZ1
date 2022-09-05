@@ -10,13 +10,13 @@ print('введите координату Y: ')
 y = int(input())
 def q(a, b):
     if x > 0 and y > 0:
-        return ('('f'{x}'', 'f'{y}'') -> 1')
+        return (f'{x}, {y}) -> 1')
     if x > 0 and y < 0:
-        return ('('f'{x}'', 'f'{y}'') -> 2')
+        return (f'{x}, {y}) -> 2')
     if x < 0 and y < 0:
-        return ('('f'{x}'', 'f'{y}'') -> 3')
+        return (f'{x}, {y}) -> 3')
     if x < 0 and y > 0:
-        return ('('f'{x}'', 'f'{y}'') -> 4')
+        return (f'{x}, {y}) -> 4')
     if x==0 or y==0:
         return ('введены не корректные данные')
 
